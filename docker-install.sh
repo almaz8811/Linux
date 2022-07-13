@@ -1,4 +1,5 @@
 #!/bin/bash
+# Скрипт установки Docker и docker-compose
 apt update
 apt-get install apt-transport-https ca-certificates curl nano gnupg-agent software-properties-common sudo wget git -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
